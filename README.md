@@ -1,2 +1,1 @@
-# website
-SF Bay Area InfraGard Website
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0efc6955-39ac-46d4-8f99-cb8064e33eeb/deploy-status)](https://app.netlify.com/sites/gifted-euler-6a0326/deploys)
