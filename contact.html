@@ -175,7 +175,20 @@
               </div>
             </div>
             <div class="col-lg-8 mt-5 mt-lg-0">
-              <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xoqyvpod" method="post">
+
+              <form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+
+<!--               <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xoqyvpod" method="post">
                 <div class="row">
                   <div class="col-md-6 form-group">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -211,7 +224,7 @@
                  document.getElementById("fs-frm").submit();
                  document.getElementById("fs-frm").reset();
                 }
-              </script>
+              </script> -->
             </div>
           </div>
         </div>
