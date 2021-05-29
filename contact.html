@@ -174,45 +174,12 @@
                   -->
               </div>
             </div>
-
             <div class="col-lg-8 mt-5 mt-lg-0">
-
               <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" data-netlify-recaptcha="true" netlify-honeypot="bot-field" method="POST" data-netlify="true">
- <div class="row">
-    <p class="hidden">
-    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-  </p>
-                  <div class="col-md-6 form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                  </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                  </div>
-                </div>
-                <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                </div>
-                <div class="form-group mt-3">
-                  <input type="tel" class="form-control" name="phone number" id="phone number" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                </div>
-                <br>
-                <center>
-                  <p> Phone Number Input must be in the format "xxx-xxx-xxxx". This input is optional.</p>
-                </center>
-                <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                </div>
-                <br>
-                <center>
-
-<div data-netlify-recaptcha="true"></div> </center>
-<br>
-    <div class="text-center"><button type="submit" value="Submit">Send Message</button></div>
-  
-
-
-<!--               <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xoqyvpod" method="post">
                 <div class="row">
+                  <p class="hidden">
+                    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                  </p>
                   <div class="col-md-6 form-group">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                   </div>
@@ -232,16 +199,41 @@
                 </center>
                 <div class="form-group mt-3">
                   <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                </div> -->
-
-
+                </div>
+                <br>
+                <center>
+                  <div data-netlify-recaptcha="true"></div>
+                </center>
+                <br>
+                <div class="text-center"><button type="submit" value="Submit">Send Message</button></div>
+                <!--               <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xoqyvpod" method="post">
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                  </div>
+                  <div class="form-group mt-3">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                  </div>
+                  <div class="form-group mt-3">
+                    <input type="tel" class="form-control" name="phone number" id="phone number" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                  </div>
+                  <br>
+                  <center>
+                    <p> Phone Number Input must be in the format "xxx-xxx-xxxx". This input is optional.</p>
+                  </center>
+                  <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                  </div> -->
                 <!-- <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
                   
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                   
-                </div> -->
+                  </div> -->
                 <!-- <div class="text-center"><button type="submit" onclick="submitAndReset()" value="Submit">Send Message</button></div> -->
               </form>
               <!-- removed onclick="submitAndReset()"  from after button type -->
@@ -250,7 +242,7 @@
                  document.getElementById("fs-frm").submit();
                  document.getElementById("fs-frm").reset();
                 }
-              </script>  -->
+                </script>  -->
             </div>
           </div>
         </div>
