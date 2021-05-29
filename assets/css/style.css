@@ -1519,6 +1519,16 @@ section {
   margin: 20px 0;
 }
 
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.hide {
+  display: none;
+  visibility: hidden;
+}
+
 .blog .entry .entry-content blockquote p {
   color: #444444;
   line-height: 1.6;
