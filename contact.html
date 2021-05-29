@@ -180,9 +180,7 @@
               <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" data-netlify-recaptcha="true" netlify-honeypot="bot-field" method="POST" data-netlify="true">
  <div class="row">
     <p class="hidden">
-      <center>
     <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-  </center>
   </p>
                   <div class="col-md-6 form-group">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -208,7 +206,8 @@
                 <center>
 
 <div data-netlify-recaptcha="true"></div> </center>
-    <div class="text-center"><button type="submit" onclick="submitAndReset()" value="Submit">Send Message</button></div>
+<br>
+    <div class="text-center"><button type="submit" value="Submit">Send Message</button></div>
   
 
 
@@ -245,7 +244,8 @@
                 </div> -->
                 <!-- <div class="text-center"><button type="submit" onclick="submitAndReset()" value="Submit">Send Message</button></div> -->
               </form>
-              <!-- <script>
+              <!-- removed onclick="submitAndReset()"  from after button type -->
+              <!-- <script> 
                 function submitAndReset() {
                  document.getElementById("fs-frm").submit();
                  document.getElementById("fs-frm").reset();
