@@ -1728,7 +1728,7 @@
       }
     }, false);
     img.src = data.href;
-    img.alt = '';
+    // img.alt = '';
 
     if (data.title !== '') {
       img.setAttribute('aria-labelledby', titleID);
