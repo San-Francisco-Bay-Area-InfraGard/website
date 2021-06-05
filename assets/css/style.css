@@ -217,13 +217,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/*.twitter-tweet {
-   margin: auto;
-   text-align: center;
-}
-*/
 .twitteralign {
-
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.twitteralign1 {
+    float: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
