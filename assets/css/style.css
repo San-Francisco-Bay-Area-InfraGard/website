@@ -1186,12 +1186,12 @@ section {
   font-weight: bold;
 }
 
-/*.btn-primary:hover {
+.btn-primary:hover {
   background-color: #FF0000; 
   color: white;
   box-shadow: #FF0000;
-  border-color: #FF0000;
-}*/
+/*  border-color: #FF0000;*/
+}
 
 .hidden {
   display: none;
