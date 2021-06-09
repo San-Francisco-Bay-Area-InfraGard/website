@@ -1179,13 +1179,13 @@ section {
 }
 
 .btn-primary { 
-  background-color: #d3d3d3;
+  background-color: #e0e0e0;
   border-color: #000000;
   font-weight: bold;
 }
 
 .btn-primary:hover {
-  background-color: #FF0000; 
+  background-color: #000000; 
 }
 
 .hidden {
