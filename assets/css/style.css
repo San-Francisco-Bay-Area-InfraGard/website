@@ -727,6 +727,8 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
@@ -757,6 +759,8 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .portfolio .portfolio-wrap img {
@@ -777,6 +781,8 @@ section {
   justify-content: flex-end;
   align-items: flex-start;
   padding: 20px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
@@ -805,6 +811,8 @@ section {
   font-size: 28px;
   display: inline-block;
   transition: 0.3s;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
