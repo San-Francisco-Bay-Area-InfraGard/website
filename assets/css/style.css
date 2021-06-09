@@ -1183,6 +1183,7 @@ section {
 .btn-primary { 
   background-color: #808080;
   border-color: #000000;
+  font-weight: bold;
 }
 
 /*.btn-primary:hover {
