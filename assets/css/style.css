@@ -1178,8 +1178,6 @@ section {
   }
 }
 
-
-/* added by kev*/
 .btn-primary { 
   background-color: #d3d3d3;
   border-color: #000000;
@@ -1188,9 +1186,6 @@ section {
 
 .btn-primary:hover {
   background-color: #FF0000; 
-  /*color: white;*/
-  /*box-shadow: #FF0000;*/
-/*  border-color: #FF0000;*/
 }
 
 .hidden {
@@ -1202,9 +1197,6 @@ section {
   display: none;
   visibility: hidden;
 }
-
-
-/* end kev*/
 
 
 /*--------------------------------------------------------------
