@@ -827,7 +827,7 @@ section {
     /*float: left;*/
     width:  100px;
     height: 100px;
-    object-fit: scale-down;
+    object-fit: contain;
 }
 
 /*--------------------------------------------------------------
