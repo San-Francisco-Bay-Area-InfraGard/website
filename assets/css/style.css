@@ -874,7 +874,7 @@ section {
 
 .pic1 {
   overflow: hidden;
-  width: 50px;
+  width: 20px;
   border-radius: 4px;
 }
 
@@ -891,7 +891,7 @@ section {
 }
 
 .team .member .member-info1 {
-  padding-bottom: 27px;
+  padding-bottom: 25px;
 }
 
 .team .member h4 {
