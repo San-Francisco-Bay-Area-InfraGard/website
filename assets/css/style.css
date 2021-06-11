@@ -733,10 +733,6 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 
 .portfolio #portfolio-flters {
