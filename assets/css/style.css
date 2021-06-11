@@ -872,11 +872,11 @@ section {
   border-radius: 4px;
 }
 
-.pic1 {
+/*.pic1 {
   overflow: hidden;
   width: 80px;
   border-radius: 4px;
-}
+}*/
 
 .team .member .pic img {
   transition: ease-in-out 0.3s;
