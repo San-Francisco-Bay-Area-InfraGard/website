@@ -878,6 +878,12 @@ section {
   border-radius: 4px;
 }
 
+.minimizepic {
+  overflow: hidden;
+  width: 18%;
+  border-radius: 4px;
+}
+
 .team .member .pic img {
   transition: ease-in-out 0.3s;
 }
