@@ -855,6 +855,10 @@ section {
     width:  150px;
     height: 150px;
     object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 /*--------------------------------------------------------------
