@@ -878,6 +878,12 @@ section {
   border-radius: 4px;
 }
 
+.extraoversizepic {
+  overflow: hidden;
+  width: 24%;
+  border-radius: 4px;
+}
+
 .minimizepic {
   overflow: hidden;
   width: 21%;
