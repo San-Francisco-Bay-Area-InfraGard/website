@@ -884,6 +884,10 @@ section {
   padding-left: 30px;
 }
 
+.team .member .member-info1 {
+  padding-bottom: 30px;
+}
+
 .team .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
