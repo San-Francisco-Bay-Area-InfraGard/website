@@ -903,7 +903,7 @@ section {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  padding-bottom: 28px;
+  margin-bottom: 28px;
 }
 
 .team .member .pic img {
