@@ -892,6 +892,20 @@ section {
   border-radius: 4px;
 }
 
+.button-sponsor {
+  background-color: #FF0000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding-bottom: 28px;
+}
+
 .team .member .pic img {
   transition: ease-in-out 0.3s;
 }
