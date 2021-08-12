@@ -874,25 +874,25 @@ section {
   border-radius: 4px;
 }
 
-.oversizepic {
+.team .member .oversizepic {
   overflow: hidden;
   width: 22%;
   border-radius: 4px;
-  transition: ease-in-out 0.3s;
+  /*transition: ease-in-out 0.3s;*/
 }
 
-.extraoversizepic {
+.team .member.extraoversizepic {
   overflow: hidden;
   width: 24%;
   border-radius: 4px;
-  transition: ease-in-out 0.3s;
+  /*transition: ease-in-out 0.3s;*/
 }
 
-.minimizepic {
+.team .member .minimizepic {
   overflow: hidden;
   width: 21%;
   border-radius: 4px;
-  transition: ease-in-out 0.3s;
+  /*transition: ease-in-out 0.3s;*/
 }
 
 .button-sponsor {
