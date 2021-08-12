@@ -878,18 +878,21 @@ section {
   overflow: hidden;
   width: 22%;
   border-radius: 4px;
+  transition: ease-in-out 0.3s;
 }
 
 .extraoversizepic {
   overflow: hidden;
   width: 24%;
   border-radius: 4px;
+  transition: ease-in-out 0.3s;
 }
 
 .minimizepic {
   overflow: hidden;
   width: 21%;
   border-radius: 4px;
+  transition: ease-in-out 0.3s;
 }
 
 .button-sponsor {
@@ -906,7 +909,7 @@ section {
   margin-bottom: 30px;
 }
 
-.team .member .pic .oversizepic .extraoversizepic .minimizepic img {
+.team .member .pic img {
   transition: ease-in-out 0.3s;
 }
 
