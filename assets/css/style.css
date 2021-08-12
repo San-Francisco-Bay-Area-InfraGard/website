@@ -906,7 +906,7 @@ section {
   margin-bottom: 30px;
 }
 
-.team .member .pic img {
+.team .member .pic .oversizepic .extraoversizepic .minimizepic img {
   transition: ease-in-out 0.3s;
 }
 
