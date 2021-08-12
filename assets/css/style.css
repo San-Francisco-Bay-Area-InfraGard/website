@@ -909,9 +909,14 @@ section {
   margin-bottom: 30px;
 }
 
-.team .member .pic .oversizepic .extraoversizepic .minimizepic img {
+.team .member .pic img {
   transition: ease-in-out 0.3s;
 }
+
+.team .member .oversizepic img {
+  transition: ease-in-out 0.3s;
+}
+
 
 .team .member:hover img {
   transform: scale(1.1);
