@@ -874,22 +874,25 @@ section {
   border-radius: 4px;
 }
 
-.oversizepic {
+.team .member .oversizepic {
   overflow: hidden;
   width: 22%;
   border-radius: 4px;
+  /*transition: ease-in-out 0.3s;*/
 }
 
-.extraoversizepic {
+.team .member.extraoversizepic {
   overflow: hidden;
   width: 24%;
   border-radius: 4px;
+  /*transition: ease-in-out 0.3s;*/
 }
 
-.minimizepic {
+.team .member .minimizepic {
   overflow: hidden;
   width: 21%;
   border-radius: 4px;
+  /*transition: ease-in-out 0.3s;*/
 }
 
 .button-sponsor {
@@ -909,6 +912,19 @@ section {
 .team .member .pic img {
   transition: ease-in-out 0.3s;
 }
+
+.team .member .oversizepic img {
+  transition: ease-in-out 0.3s;
+}
+
+.team .member .extraoversizepic img {
+  transition: ease-in-out 0.3s;
+}
+
+.team .member .minimizepic img {
+  transition: ease-in-out 0.3s;
+}
+
 
 .team .member:hover img {
   transform: scale(1.1);
